@@ -42,3 +42,6 @@ IMAGE_INSTALL_append_porter = " \
     libegl-dev \
     libgbm-dev \
     "
+IMAGE_INSTALL_append_raspberrypi2 = " \
+     mesa-megadriver \
+     "
